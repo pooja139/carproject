@@ -120,7 +120,7 @@ $(function () {
                 }
             }
         } else {
-            $('.company-logo img').attr('src', 'img/logos/black-logo.png');
+            $('.company-logo img').attr('src', 'static/img/logos/black-logo.png');
         }
     }
 
@@ -392,7 +392,7 @@ $(function () {
             centerMode: true,
             centerPadding: '0'
         });
-        
+
         $(this).closest('.slick-slider-area').find('.slick-prev').on("click", function () {
             slider.slick('slickPrev');
         });
