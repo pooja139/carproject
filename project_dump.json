@@ -1,0 +1,52 @@
+[
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$260000$Rtm6jBVp5zWcCpg2usB4ky$udc+wKlgJ5wJIgoYsD9T8+9tD0oYdF78wFJzMJ6uGTs=",
+        "last_login": "2021-06-22T05:52:55Z",
+        "is_superuser": true,
+        "username": "sa",
+        "first_name": "Pooja",
+        "last_name": "Tehlan",
+        "email": "poojatehlan1993@gmail.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2021-06-22T05:46:54Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "7q8z6l0xit3bmf0o624aobiledjb21mq",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2pCZUgq4dN8zkBmGSNXQpLQr490NSRe6_e-9_1aRjr3Eo-UtLqKuCtXld2NKz1w7kAfV-6rTWvdtYd0VfdKm51Xy63a6fweFWum1pSBgrB8k2MkFyqNJntGKswmDGyizT2AY0HAAwQkz4OjAMZP3pD5f0uc3ZQ:1lvZLD:vOz0-CzayBsmvBbUu6y3foOitdBGU_EniZaJPPJWAUU",
+        "expire_date": "2021-07-06T05:52:55.123Z"
+    }
+},
+{
+    "model": "sites.site",
+    "fields": {
+        "domain": "example.com",
+        "name": "example.com"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2021-06-22T05:56:28.195Z",
+        "user": [
+            "sa"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "1",
+        "object_repr": "sa",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\", \"Email address\"]}}]"
+    }
+}
+]
