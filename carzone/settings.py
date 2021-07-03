@@ -24,7 +24,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-eet#nab-3r7*y=eq3q*bs46@_=iouc=bkdoc78_-sk(=mx4x)^'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = []
 
@@ -100,7 +100,7 @@ WSGI_APPLICATION = 'carzone.wsgi.application'
 #    }
 #}
 
-DATABASES = {'default': dj_database_url.config(default='postgres://postgres:dbnms#123@localhostname/carzone_db')}
+DATABASES = {'default': dj_database_url.config(default='postgres://postgres:dbnms123@localhostname/carzone_db')}
 
 
 # Password validation
